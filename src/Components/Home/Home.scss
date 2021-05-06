@@ -1,7 +1,13 @@
+$HIBERNATION-VI-1-hex: #F2505D;
+$HIBERNATION-VI-2-hex: #011526;
+$HIBERNATION-VI-3-hex: #092B40;
+$HIBERNATION-VI-4-hex: #F2D9BB;
+$HIBERNATION-VI-5-hex: #F28066;
+
 #bg{
     height: 100%;
     width:  100%;
-  overflow: hidden
+    overflow: hidden
 }
 
 .page{
@@ -22,18 +28,26 @@
     left: 0;
     object-fit: contain;
     display: block;
+    opacity: 75%;
 }
+
 .name{
+    color:$HIBERNATION-VI-1-hex;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: -1vh;
+}
+
+.name, .tag{
     text-align: center;
-    color: white;
 }
 
 .portrait{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
-    width: 300px;
-    height: 300px;
+    margin-top: 15%;
+    width: 27vh;
+    height: 27vh;
     border-radius: 50%;
 }
